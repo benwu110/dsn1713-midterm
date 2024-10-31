@@ -290,6 +290,7 @@ padding-right:50px;
   display: flex;
   flex-direction:row;
   justify-content: space-between;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -297,7 +298,8 @@ padding-right:50px;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    align-items: top;
+    align-items: center;
+
   }
 }
 
@@ -442,3 +444,5 @@ section:not(#hero):not(#cta){
     padding: 100px 0;
   }
 }
+
+/*
